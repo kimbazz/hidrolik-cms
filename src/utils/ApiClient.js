@@ -130,6 +130,4 @@ if (pb.authStore.model && !pb.authStore.model.collectionId) { // not an auth rec
     setAdmin(pb.authStore.model);
 }
 
-console.log(pb);
-
 export default pb;

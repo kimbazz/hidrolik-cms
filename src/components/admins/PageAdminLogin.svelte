@@ -18,8 +18,6 @@
 
         isLoading = true;
 
-        console.log("kadal")
-
         return ApiClient.admins
             .authWithPassword(email, password)
             .then(() => {
