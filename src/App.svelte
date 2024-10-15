@@ -36,7 +36,7 @@
         oldLocation = e?.detail?.location;
 
         // resets
-        $pageTitle = "";
+        $pageTitle = "Hammerspire";
         setErrors({});
         resetConfirmation();
     }
