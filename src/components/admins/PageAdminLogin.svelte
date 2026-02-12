@@ -18,7 +18,7 @@
 
         isLoading = true;
 
-        return ApiClient.admins
+        return ApiClient.collection('_superusers')
             .authWithPassword(email, password)
             .then(() => {
                 removeAllToasts();
